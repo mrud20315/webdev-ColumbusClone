@@ -6,6 +6,7 @@ nav{
 }
 
 ul {
+  margin: 0%;
   list-style-type: none;
     padding-left: 25px;
   }
@@ -22,6 +23,9 @@ ul {
     padding-left: 20px;
   }
 
+  ul:nth-child(7){
+padding-right: 140px;
+  }
 
   #hero{
     background-color: white;
@@ -31,12 +35,56 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  h1{
-    color: white;
+
+ h4{
+   color: white;
+ } 
+
+ h1{
+   color: white;
+ }
+ #herotextdiv img{
+  position: relative;
+
+  
+}
+  #herotextdiv{
+    margin: 0%;
+    left: 200px;
+    text-shadow:0px 2px 3px #333333;
+    
+    display: flex;
+    
+    position: relative;
+    top: 90px;
+    left: 200px;
+    font-family: 'open sans', sans-serif;
+    font-size: 16px;
+    line-height: 1px;
+
   }
-  h2{
-    color: white;
+  #explorecchs{
+    width: 100vw;
+    height: 400px;
   }
+  #explorerhead{
+    text-align: center;
+    width: 100vh;
+    height: 319px;
+    background-color: firebrick;
+  }
+  #explorersection{
+    width: 100vw;
+    height: 319px;
+    background-color: slateblue;
+  }
+  #.explorerbox{
+    height: 315px;
+    width: 25%;
+    background-color: peru;
+    float: left;
+  }
+  
 
   
  
