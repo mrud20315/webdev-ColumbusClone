@@ -1,90 +1,372 @@
-nav{
-  background-color: #10243b;
-  color: white;
-  font-size: 25px;
-  font-family: 'open sans', sans-serif;
+{
+
+  margin: 0px;
+
+  padding: 0px;
+
 }
 
-ul {
-  margin: 0%;
+
+
+body{
+
+  margin: 0px;
+
+}
+
+
+div img{
+
+  display: inline-block;
+
+  height: 40px;
+
+  width: 40px;
+
+}
+
+
+#topnav{
+
+background-color: #10243B;
+
+color: rgb(255, 255, 255);
+
+width: 100%;
+
+height: 50px;
+
+font-family: 'PT Sans Narrow', sans-serif;
+
+font-weight: bold;
+
+text-transform: uppercase;
+
+
+}
+
+li {
+
   list-style-type: none;
-    padding-left: 25px;
-  }
 
-  
-  ul li {    
-    display: inline;
-    margin: 10px;
-    padding-left: 5px;
-  }
+  display: inline;
 
-  ul:first-child{
-    margin-left: 20px;
-    padding-left: 20px;
-  }
+  padding-right: 25px;
 
-  ul:nth-child(7){
-padding-right: 140px;
-  }
-
-  #hero{
-    background-color: white;
-    height: 100vh;
-    width: 100vw;
-    background-image: url(images/graduation.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
- h4{
-   color: white;
- } 
-
- h1{
-   color: white;
- }
- #herotextdiv img{
-  position: relative;
-
-  
 }
-  #herotextdiv{
-    margin: 0%;
-    left: 200px;
-    text-shadow:0px 2px 3px #333333;
-    
-    display: flex;
-    
-    position: relative;
-    top: 90px;
-    left: 200px;
-    font-family: 'open sans', sans-serif;
-    font-size: 16px;
-    line-height: 1px;
 
-  }
-  #explorecchs{
-    width: 100vw;
-    height: 400px;
-  }
-  #explorerhead{
-    text-align: center;
-    width: 100vh;
-    height: 319px;
-    background-color: firebrick;
-  }
-  #explorersection{
-    width: 100vw;
-    height: 319px;
-    background-color: slateblue;
-  }
-  #.explorerbox{
-    height: 315px;
-    width: 25%;
-    background-color: peru;
-    float: left;
-  }
-  
 
-  
- 
+#ul-1, #ul-2{
+
+list-style-type: none;
+
+}
+
+
+#ul-1{
+
+float: left;
+
+border-top: 10px;
+
+}
+
+
+#ul-2{
+
+float: right;
+
+}
+
+
+#lightblue1{
+
+
+}
+
+
+#lightblue2{
+
+
+}
+
+
+.search{
+
+height: 15px;
+
+width: 15px;
+
+}
+
+
+#fans{
+
+height:1000px ;
+
+width: 100%;
+
+background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0), transparent), url(images/graduation.jpg);
+
+}
+
+
+#explore{
+
+  text-align: center;
+
+  background-color: #10243B;
+
+  color: white;
+
+  font-weight: bold;
+
+}
+
+
+
+#exploreimg{
+
+  width: 24.5%;
+
+  height: 24.5%;
+
+
+
+}
+
+
+
+.glancebox {
+
+  height: 300px;
+
+  width: 24.8%;
+
+  display: inline-block;
+
+}
+
+.ataglance {
+
+  height: 400px;
+
+  width: 100%;
+
+  background-color: white;
+
+  padding-bottom: 100px;
+
+}
+
+#glancephoto {
+
+  background-size: cover;
+
+  position: center;
+
+  margin: auto;
+
+  height: 350px;
+
+  width: 350px;
+
+  padding-left: 20%
+
+}
+
+.glancetop {
+
+  font-size: 1.875em;
+
+  color: #dd0e38;
+
+  margin-top: 0;
+
+  font-family: 'PT Sans Narrow', sans-serif;
+
+  margin-bottom: 10px;
+
+  text-align: center;
+
+}
+
+.glancebottom {
+
+  margin-bottom: 10px;
+
+  font-size: 1.125em;
+
+  font-family: 'PT Sans Narrow', sans-serif;
+
+  color: #00344C;
+
+  text-align: center;
+
+}
+
+
+
+#flex1{
+
+  background-color: #10243B;
+
+  color: white;
+
+  text-align: center;
+
+  margin-left: 20%;
+
+  margin-right: 20%;
+
+  font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+
+
+
+#flex2{
+
+background-color: white;
+
+color: black;
+
+text-align: center;
+
+margin-top: 100px;
+
+padding-top: 20px;
+
+font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+
+
+#college{
+
+height: 24.5%;
+
+width: 24.5%;
+
+}
+
+
+#footer {
+
+  width: 100%;
+
+  height: 400px;
+
+  background-color: #10243B;
+
+  color: white;
+
+}
+
+#footernav {
+
+  width: 100%;
+
+  height: 50px;
+
+}
+
+
+
+#leftFloat,#rightFloat {
+
+  display: inline-block;
+
+  padding-top: 12.5px;
+
+  text-decoration: none;
+
+  text-transform: uppercase;
+
+  font-size: 1rem;
+
+  font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+#rightFloat {
+
+  float: right;
+
+  padding-top: 11px;
+
+}
+
+#footercontent {
+
+  height: 340px;
+
+  width: 100%;
+
+  background-color: #333;
+
+}
+
+#contactinfo{
+
+  padding-top: 50px;
+
+  padding-left: 10%;
+
+}
+
+.right {
+
+  float: right;
+
+}
+
+#mission-statement {
+
+  width: 60%;
+
+  height: 250px;
+
+  margin: 50px 0px 0px 75px;
+
+  font-style: italic;
+
+  margin-bottom: 50px;
+
+  opacity: .5;
+
+  font-size: .875em;
+
+  display: inline-block;
+
+}
+
+a {
+
+  text-decoration: none;
+
+  color: #fafafa;
+
+  padding: 10px;
+
+  vertical-align: middle;
+
+}
+
+#SMPICS{
+
+  color:  #0088cc;
+
+}
+
+#seal{
+
+  float: right;
+
+  padding-top: 5%;
+
+  margin-left: 10%;
+
+}
